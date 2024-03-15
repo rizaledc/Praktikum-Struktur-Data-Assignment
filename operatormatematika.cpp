@@ -6,7 +6,7 @@ int main()
 {
     char op;
     cout<<"Selamat datang di kalkulator digital by Rizal"<<endl<<endl;
-    cout<<""<<endl;
+    cout<<"Gunakanlah dengan bijak"<<endl;
     float num1, num2; //menginisiasi num1 dan num2 yang akan digunakan
 
     cout << "Masukkan operator: "; // meminta inputan operator
@@ -33,7 +33,7 @@ int main()
         if (num2 != 0)
             cout << num1 / num2;
         else
-            cout << "Error! Division by zero!";
+            cout << "Error! Jangan dibagi dengan 0!";
         break;
     default:
         cout << "Operator tidak ditemukan. Silakan coba lagi!";
