@@ -94,6 +94,7 @@ Bagian 4
 Pada kode di atas, terdapat switch(op) yang bertujuan untuk membaca inputan dari pengguna lalu disesuaikan dengan case yang berlaku. Jika pengguna menginputkan + maka akan masuk ke case 1, jika pengguna menginputkan – maka akan masuk ke case 2, jika pengguna menginputkan * maka akan masuk ke case 3, dan jika pengguna menginputkan / maka akan masuk ke case 4.	Namun jika dari ke-4 operator (`+`,`-`,`*`,`/`) tidak ada yang diinputkan atau inputan berbeda berlaku case 5.
 
 Bagian 5
+
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1e.png?raw=true)
 
 Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan dengan normal.
