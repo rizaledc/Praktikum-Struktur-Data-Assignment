@@ -149,7 +149,13 @@ Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah 
 
 Pada praktikum Algoritma dan Struktur Data, penulis diberikan studi kasus sebagai bentuk penerapan dari latihan yang diberikan. Berikut ini merupakan studi kasus yang diberikan:
 
-**2.3.1 Menghitung Luas Bangun Datar**
+**2.3.1 Soal 1. Tipe Data Primitif (Menghitung Luas Bangun Datar)**
+
+Soal : Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
+Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
+materi tipe data primitif! 
+
+Jawab :
 
 Bagian 1
 
@@ -182,9 +188,48 @@ Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi p
 - Pengguna diminta untuk memasukkan namanya menggunakan cin.getline() agar tidak ada masalah kode jika pengguna menginputkan spasi.
 - Fungsi pesanSalam() ini digunakan untuk menyapa pengguna yang menggunakan program.
 - Berikutnya menggunakan cout untuk menambahkan string yang berupa kalimat dan meminta inputan dari pengguna menggunakan cin >> choice.
+- 
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1d.png?raw=true)
+
 - Jika pengguna memasukkan angka 1 maka akan masuk ke case 1 yang merupakan rumus pengukuran luas persegi panjang.
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1e.png?raw=true)
+  
 - Jika pengguna memasukkan angka 2 maka akan masuk ke case 2 yang merupakan rumus pengukuran luas segitiga.
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1f.png?raw=true)
+  
 - Jika pengguna memasukkan angka 3 maka akan masuk ke case 3 yang merupakan rumus pengukuran luas lingkaran.
 - Jika pengguna tidak memasukkan dari 3 pilihan tersebut maka akan masuk ke default yang akan mengeluarkan pesan "Pilihan tidak valid".
 
 Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
+
+Kesimpulan:
+
+
+
+**2.3.2 Program dari class dan Struct (Manajemen Produk)**
+
+Soal :Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya 
+
+Jawab : 
+
+Bagian 1
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png?raw=true)
+
+Pada bagian <iostream> menggunakan library input dan output standar, berikutnya ada <vector> yang menggunakan struktur data vector yang dinamis, dan <string> library yang digunakan untuk menggunakan tipe data string. Name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
+
+Pada bagian struct Produk ini mendefinisikan sebuah struktur dengan nama Produk yang memiliki dua anggota yaitu nama bertipe string dan harga bertipe integer.
+
+Bagian 2
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
+
+Bagian 3
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2c.png?raw=true)
+
+Bagian 4
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
