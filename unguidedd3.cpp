@@ -66,3 +66,7 @@ int main() {
 
     return 0;
 }
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
