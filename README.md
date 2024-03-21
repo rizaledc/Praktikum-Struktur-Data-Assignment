@@ -69,3 +69,5 @@ Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai 
 
 **2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
 
+Bagian 1
+![alt text] (https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1a.png?raw=true)
