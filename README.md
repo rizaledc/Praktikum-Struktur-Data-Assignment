@@ -119,32 +119,63 @@ Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kit
 **2.2.3 Tipe Data Koleksi (Nilai Array)** 
 
 Bagian 1
+
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png?raw=true)
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
+
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png?raw=true)
 
 Fungsi 'main' merupakan fungsi yang akan diutamakan untuk dieksekusi. Di dalam fungsi main terdapat int nilai dengan 5 elemen bertipe integer, nilai dari setiap elemennya dideklarasikan secara terpisah mulai dari indeks ke-0 hingga indeks ke-4.
 
 Bagian 3
+
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3c.png?raw=true)
 
 Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah kita buat menggunakan `cout` dari class `ostream` mulai dari array indeks ke-0 hingga array indeks ke-4. Berikutnya ada endl yang digunakan untuk membuat baris baru.
 
-![alt text](?raw=true)
+**2.3 Unguided**
 
-![alt text](?raw=true)
+Pada praktikum Algoritma dan Struktur Data, penulis diberikan studi kasus sebagai bentuk penerapan dari latihan yang diberikan. Berikut ini merupakan studi kasus yang diberikan:
 
-![alt text](?raw=true)
+**2.3.1 Menghitung Luas Bangun Datar**
 
-![alt text](?raw=true)
+Bagian 1
 
-![alt text](?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png?raw=true)
 
-![alt text](?raw=true)
+Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
-![alt text](?raw=true)
+Bagian 2
 
-![alt text](?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1b.png?raw=true)
+
+
+Const PI menyatakan nilai 3.14 yang konstan tidak dapat diubah-ubah. Berikutnya kita akan mendeklarasikan function. Seperti:
+
+- float hitungLuasPersegiPanjang(float panjang, float lebar); yang berisikan variabel panjang dan lebar.
+
+- float hitungLuasSegitiga(float alas, float tinggi); yang berisikan variabel alas dan tinggi.
+
+- float hitungLuasLingkaran(float jariJari); yang berisikan variabel jari-jari.
+
+- void pesanSalam(char nama[]); digunakan untuk menyimpan nama dari pengguna yang akan diinputkan.
+
+Bagian 3
+
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1c.png?raw=true)
+
+Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi pertama saat menjalankan program. Berikut ini jalan dari fungsi main atau fungsi utamanya:
+
+- Di dalam fungsi main terdapat float yang merupakan variabel lokal yang dapat menyimpan panjang, lebar, alas, jari-jari. Berikutnya ada char nama yang berisikan maksimal 50 karakter dan int choice yang merupakan deklarasi agar pengguna program dapat memilih sesuai dengan inputan kodenya berupa integer.
+- Pengguna diminta untuk memasukkan namanya menggunakan cin.getline() agar tidak ada masalah kode jika pengguna menginputkan spasi.
+- Fungsi pesanSalam() ini digunakan untuk menyapa pengguna yang menggunakan program.
+- Berikutnya menggunakan cout untuk menambahkan string yang berupa kalimat dan meminta inputan dari pengguna menggunakan cin >> choice.
+- Jika pengguna memasukkan angka 1 maka akan masuk ke case 1 yang merupakan rumus pengukuran luas persegi panjang.
+- Jika pengguna memasukkan angka 2 maka akan masuk ke case 2 yang merupakan rumus pengukuran luas segitiga.
+- Jika pengguna memasukkan angka 3 maka akan masuk ke case 3 yang merupakan rumus pengukuran luas lingkaran.
+- Jika pengguna tidak memasukkan dari 3 pilihan tersebut maka akan masuk ke default yang akan mengeluarkan pesan "Pilihan tidak valid".
+
+Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
