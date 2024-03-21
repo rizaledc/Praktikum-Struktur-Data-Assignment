@@ -70,6 +70,7 @@ Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai 
 **2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
 
 Bagian 1
+
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1a.png?raw=true)
 
 Pada bahasa pemrograman C++ jika kita ingin menggunakan input dan output pada program maka harus memanggil library <iostream> terlebih dahulu. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
