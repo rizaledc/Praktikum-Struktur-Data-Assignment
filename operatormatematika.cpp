@@ -6,7 +6,7 @@ int main()
 {
     char op; //op digunakan untuk menyimpan operator mtk yang diinputkan
     cout<<"Selamat datang di kalkulator digital by Rizal"<<endl<<endl;
-    cout<<""<<endl;
+    cout<<"Gunakanlah dengan bijak"<<endl;
     float num1, num2; //menginisiasi num1 dan num2 yang akan digunakan
 
     cout << "Masukkan operator: "; // meminta inputan operator
@@ -37,8 +37,13 @@ int main()
     case '/': // jika inputan /
         if (num2 != 0) //jika kondisi num2 tidak sama dengan 0
             cout << num1 / num2;
+<<<<<<< HEAD
         else //ketika inputan num2 adalah 0 maka error.
             cout << "Error! Dibagi dengan 0!";
+=======
+        else
+            cout << "Error! Jangan dibagi dengan 0!";
+>>>>>>> a76d1b6a296f6c2a50dbaa6c1ef6ccfa94595d02
         break;
         //case 5
     default: //jika operator yang diinputkan tidak ada maka masuk kesini
