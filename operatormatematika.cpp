@@ -1,10 +1,10 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // mengizinkan program menggunakan Input dan Output
+using namespace std; // memungkinkan penggunaan fungsi dan objek dalam namespace std, cin, dan cout.
 
 // membuat code inti atau main code
 int main()
 {
-    char op;
+    char op; //op digunakan untuk menyimpan operator mtk yang diinputkan
     cout<<"Selamat datang di kalkulator digital by Rizal"<<endl<<endl;
     cout<<""<<endl;
     float num1, num2; //menginisiasi num1 dan num2 yang akan digunakan
@@ -18,27 +18,36 @@ int main()
     cout << "Masukkan nomor kedua: "; 
     cin >> num2;
 
-    switch(op)
+    switch(op) //statement yang mengevaluasi nilai dari variabel pada op
     {
-    case '+':
+        //kasus yang akan dieksekusi sesuai dengan inputan pengguna.
+        //case 1
+    case '+': // jika inputan berupa +
         cout << "Hasil: " << num1 + num2;
         break;
-    case '-':
+        // case 2
+    case '-': // jika inputan berupa -
         cout << "Hasil: " << num1 - num2;
         break;
-    case '*':
+        // case 3
+    case '*': // jika inputan berupa *
         cout << "Hasil: " << num1 * num2;
         break;
-    case '/':
-        if (num2 != 0)
+        // case 4
+    case '/': // jika inputan /
+        if (num2 != 0) //jika kondisi num2 tidak sama dengan 0
             cout << num1 / num2;
-        else
-            cout << "Error! Division by zero!";
+        else //ketika inputan num2 adalah 0 maka error.
+            cout << "Error! Dibagi dengan 0!";
         break;
-    default:
+        //case 5
+    default: //jika operator yang diinputkan tidak ada maka masuk kesini
         cout << "Operator tidak ditemukan. Silakan coba lagi!";
     }
 
-    return 0;
+    return 0; //inisiasi bahwa program telah selesai berjalan normal
 }
 
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
