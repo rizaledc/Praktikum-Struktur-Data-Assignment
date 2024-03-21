@@ -36,14 +36,9 @@ int main()
         // case 4
     case '/': // jika inputan /
         if (num2 != 0) //jika kondisi num2 tidak sama dengan 0
-            cout << num1 / num2;
-<<<<<<< HEAD
+        cout << num1 / num2;
         else //ketika inputan num2 adalah 0 maka error.
-            cout << "Error! Dibagi dengan 0!";
-=======
-        else
-            cout << "Error! Jangan dibagi dengan 0!";
->>>>>>> a76d1b6a296f6c2a50dbaa6c1ef6ccfa94595d02
+        cout << "Error! Dibagi dengan 0!";
         break;
         //case 5
     default: //jika operator yang diinputkan tidak ada maka masuk kesini

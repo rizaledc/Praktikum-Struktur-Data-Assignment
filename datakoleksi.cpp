@@ -18,7 +18,7 @@ cout << "The value from the second array is : "<< nilai[1]<<endl<<endl;
 cout << "The value from the third array is : "<< nilai[2]<<endl<<endl;
 cout << "The value from the fourth is : "<< nilai[3]<<endl<<endl;
 cout << "The value from the fifth array is : "<< nilai[4]<<endl<<endl;
-
+return 0;
 }
 
 // RIZAL WAHYU PRATAMA
