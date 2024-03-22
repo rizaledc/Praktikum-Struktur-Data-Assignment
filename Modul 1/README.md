@@ -1,3 +1,6 @@
+# <h1 align="center">Laporan Praktikum Modul 1 Tipe Data</h1>
+<p align="center">Rizal Wahyu Pratama</p>
+
 **BAB 1**
 
 **1.1 Latar Belakang**
