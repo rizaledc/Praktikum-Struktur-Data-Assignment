@@ -724,7 +724,7 @@ Return 0 menyatakan bahwa perulangan tidak perlu dilakukan dan program telah ber
 #### Output
 
 <p align="center">
-  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguided3.png" alt="Alt Text">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguded3.png" alt="Alt Text">
 </p>
 
 Dari output yang dihasilkan ditampilkan mulai dari Nilai mahasiswa yang berhasil di tambahkan hingga dimunculkan dari Nama mahasiswanya, nilai fisika dan matematikanya. Salah satu contohnya adalah Mahasiswa John, nilainya berhasil diinputkan lalu muncul pada terminal hasil nilainya berupa nilai fisika 75 yang termasuk grade B, dan nilai matematika 85 yang masuk grade A. Jika nama mahasiswa tidak tercantum maka sistem akan memberikan pesan nama mahasiswa tidak ditemukan seperti contoh mahasiswa Charlie.
