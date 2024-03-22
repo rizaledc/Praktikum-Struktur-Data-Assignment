@@ -3,7 +3,7 @@
 
 # <h2 align="center">BAB 1 PENDAHULUAN</h2>
 
-**1.1 Latar Belakang**
+## 1.1 Latar Belakang
 
 Memahami cara komputer dalam mengoperasikan sesuatu bukanlah hal yang mudah, hal ini perlu pengetahuan khusus yang mendalam. Komputer dapat dengan mudah dan efisien melakukan pekerjaan yang terasa sulit dikerjakan manusia dalam kehidupan sehari-hari. Komputer memiliki bahasanya sendiri untuk mengoperasikan suatu pekerjaan, dan bahasa ini disebut dengan bahasa pemrograman.
 
@@ -13,7 +13,7 @@ Pada tahun 1980 seorang ahli yang bernama Bjarne Stroustrup mengembangkan bebera
 
 Dalam memprogram sebuah komputer diperlukannya pengkodean dengan berbagai macam tipe data yang ada di dalamnya, sama halnya dengan bahasa C++ untuk membentuk kode program diperlukan pemahaman yang mendalam tentang tipe data. Bahasa C++ memiliki berbagai tipe data yang dapat dieksplor secara mendalam oleh penggunanya, seperti integer, float, boolean, char, string, dan lain sebagainya.
 
-**1.2 Rumusan Masalah**
+## 1.2 Rumusan Masalah
 
 Berdasarkan latar belakang di atas, penulis telah merumuskan beberapa masalah yang akan di bahas dalam laporan praktikum ini, sebagai berikut:
 
@@ -21,7 +21,7 @@ Berdasarkan latar belakang di atas, penulis telah merumuskan beberapa masalah ya
 2.	Bagaimana pengaplikasian pada tools yang digunakan?
 3.	Bagaimana pengaplikasian berbagai tipe data pada bahasa pemrograman C++?
 
-**1.3 Tujuan**
+## 1.3 Tujuan
 
 Berikut ini merupakan rumusan tujuan yang dapat dicapai dengan dituliskannya laporan praktikum ini, sebagai berikut:
 1.	Mahasiswa dapat mempelajari tipe data primitif, abstrak, dan kolektif. 
@@ -30,7 +30,7 @@ Berikut ini merupakan rumusan tujuan yang dapat dicapai dengan dituliskannya lap
 
 # <h2 align="center">BAB 2 PEMBAHASAN</h2>
 
-**2.1 Dasar Teori**
+## 2.1 Dasar Teori
 
 Bahasa pemrograman, merupakan suatu komando atau perintah yang dibuat manusia untuk membuat komputer menjadi memiliki fungsi tertentu (Hafhis). Bahasa pemrograman bermacam-macam, salah satunya adalah bahasa C++, dimana bahasa ini sangat populer digunakan pada kalangan programer. Seperti bahasa pemrograman lainnya, bahasa C++ juga dapat digunakan untuk mengolah data dengan cukup baik. 
 
@@ -38,7 +38,7 @@ Data adalah fakta-fakta yang berupa angka-angka, teks, dokumen, gambar, bagan, s
 
 Tipe data ini perlu diketahui agar compiler dapat mengetahui bagaimana sebuah data akan digunakan dan diperlakukan (Nauviana Pita). Dengan memahami tipe-tipe data yang digunakan, seorang compiler dapat mempercepat pekerjaannya dalam melakukan pemrograman karena masing-masing tipe data memiliki ciri khasnya masing-masing dan dengan ukuran yang berbeda-beda. Berikut ini merupakan penjabara dari tipe data primitif, tipe data abstrak, dan tipe data koleksi.
 
-**2.1.1 Tipe Data Primitif**
+### 2.1.1 Tipe Data Primitif
 
 Tipe data ini merupakan tipe data yang paling sering digunakan oleh programer karena tipe data primitif ini merupakan tipe data bawaan dari C++ yang dapat dengan langsung untuk digunakan. Tipe data primitif ini memungkinkan programer untuk mengelola berbagai jenis data dengan waktu efisien. Berikut ini merupakan tipe data primitif yang umum digunakan pada bahasa pemrograman C++:
 1.	Integer (int)	: Tipe data yang digunakan untuk menyimpan berbagai bilangan bulat seperti 1,2,3,4,5,....,n
@@ -49,13 +49,13 @@ Tipe data ini merupakan tipe data yang paling sering digunakan oleh programer ka
    
 Dengan tipe data primitif, seorang programmer dapat mengolah berbagai jenis data dengan tipe yang disediakan bahasa C++.
 
-**2.1.2 Tipe Data Abstrak**
+### 2.1.2 Tipe Data Abstrak
 
 Tipe data abstrak atau yang biasa disebut Abstrak Data Type(ADT) banyak digunakan oleh programmer dalam membuat sebuah program. Seperti namanya, tipe data abstrak memiliki struktur yang abstrak, dimana merupakan gabungan dari beberapa tipe data. Dalam pemrograman komputer, tipe data abstrak memungkinkan programer untuk dapat mendefinisikan berbagai tipe data tanpa harus memberikan detail implementasi dari tipe data yang digunakan. 
 
 Pada tipe data abstrak terdapat kelas tipe. Dimana kelas abstrak ini dapat bertindak sebagai ekspresi konsep umum yang merupakan tempat yang lebih spesifik dalam tipe data. Fitur kelas yang terdapat pada C++ adalah Object Oriented Program(OOP) yang dapat membungkus tipe data yang ada di dalamnya sebagai anggota.
 
-**2.1.3 Tipe Data Koleksi**
+### 2.1.3 Tipe Data Koleksi
 
 Collection Data Type(CDT) merupakan tipe data yang digunakan untuk menyimpan beberapa value atyau objek secara bersamaan. Tipe data koleksi memungkinkan programmer untuk mengolah berbagai data besar dengan cara yang efisien dan terstruktur. Terdapat beberapa tipe data koleksi yang sering digunakan sebagai berikut:
 
@@ -66,11 +66,11 @@ Collection Data Type(CDT) merupakan tipe data yang digunakan untuk menyimpan beb
    
 Empat tipe data di atas merupakan beberapa contoh dari tipe data koleksi yang sering digunakan di kalangan programer. Tipe data ini merupakan turunan dari bahasa C namun tetap memiliki perbedaan di dalamnya.
 
-**2.2 Guided**
+## 2.2 Guided
 
 Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai tipe data. Latihan tersebut akan dijelaskan perbagiannya, sebagai berikut:
 
-**2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
+### 2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
 Kode Lengkap
 
 ```C++
@@ -159,14 +159,60 @@ Bagian 5
 
 Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan dengan normal.
 
-Output Program
+#### Output Program
 
 <p align="center">
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided1.png" alt="Alt Text">
 </p>
 
+#### Kesimpulan
+Kode program ini merupakan kode yang menyediakan kalkulator sederhana seperti penjumlahan, pengurangan, perkalian, dan pembangian menggunakan bahasa pemrograman C++. Program kalkulator sederhana ini masih menggunakan sistem sederhana dengan menggunakan tipe data Primitif.
 
-**2.2.2 Guided Tipe Data Abstrak (Data Mahasiswa)**
+### 2.2.2 Guided Tipe Data Abstrak (Data Mahasiswa)
+
+```C++
+// Dua kode di bawah ini merupakan preprocessor
+//digunakan untuk menggunakan input output dan memanipulasi string.
+#include <stdio.h> 
+#include <string.h>
+
+//Struct
+struct Mahasiswa
+{
+            char name[50]; //maksimal 50 char
+            char address[100]; //maksimal 100 char
+            int age;
+};
+int main() //kode inti yang akan dieksekusi
+{
+    //Menggunakan struct dalam pengkodean
+    struct Mahasiswa mhs1, mhs2;
+    //Mengisi value ke struct sesuai yang diinginkan
+    strcpy(mhs1.name, "Rizal");
+    strcpy(mhs1.address, "Bali");
+    mhs1.age = 18;
+    strcpy(mhs2.name, "Mikhael");
+    strcpy(mhs2.address, "Banyumas");
+    mhs2.age = 19;
+
+    //Mencetak value struct sebelumnya.
+    printf("====MAHASISWA 1====\n");
+    printf("Nama : %s\n", mhs1.name);
+    printf("Asal daerah : %s\n", mhs1.address);
+    printf("Umur : %d\n", mhs1.age);
+    printf("\n");
+        printf("====MAHASISWA 2====\n");
+    printf("Nama : %s\n", mhs2.name);
+    printf("Asal daerah : %s\n", mhs2.address);
+    printf("Umur : %d\n", mhs2.age);
+    return 0;
+}
+
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+```
 
 Bagian 1
 
@@ -192,7 +238,45 @@ Bagian 4
 
 Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kita masukkan pada variabel name, address, dan age dari mhs1 dan mhs2 menggunakan fungsi printf. Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
 
-**2.2.3 Tipe Data Koleksi (Nilai Array)** 
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided2.png" alt="Alt Text">
+</p>
+
+#### Kesimpulan
+
+Kode di atas merupakan kode yang dapat menampilkan value yang telah diinputkan dari suatu variabel. Dimana pada kode di atas dibuatlah variabel name, address, dan age yang akan menyimpan value yang diinputkan. Dari semua variabel ini merupakan variabel bertipe abstrak yang terdiri dari berbagai jenis tipe data.
+
+### 2.2.3 Tipe Data Koleksi (Nilai Array)
+
+```C++
+#include <iostream>
+#include <array>
+using namespace std;
+
+int main() {
+    //Deklarasi dan inisiasi array
+    int nilai[5];
+    nilai[0] = 20;
+    nilai[1] = 25;
+    nilai[2] = 30;
+    nilai[3] = 35;
+    nilai[4] = 40;
+
+//Mencetak array dengan tab
+cout<<endl<<endl;
+cout << "The value from the first array is : "<< nilai[0]<<endl<<endl;
+cout << "The value from the second array is : "<< nilai[1]<<endl<<endl;
+cout << "The value from the third array is : "<< nilai[2]<<endl<<endl;
+cout << "The value from the fourth is : "<< nilai[3]<<endl<<endl;
+cout << "The value from the fifth array is : "<< nilai[4]<<endl<<endl;
+return 0;
+}
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+```
 
 Bagian 1
 
@@ -216,11 +300,20 @@ Bagian 3
 
 Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah kita buat menggunakan `cout` dari class `ostream` mulai dari array indeks ke-0 hingga array indeks ke-4. Berikutnya ada endl yang digunakan untuk membuat baris baru.
 
-**2.3 Unguided**
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided3.png" alt="Alt Text">
+</p>
+
+#### Kesimpulan
+
+Pada program di atas, dibuatlah kode menggunakan tipe data koleksi. Dengan membuat array yang terdiri dari 5 elemen. Lalu elemen-elemen tersebut akan dipanggil menggunakan cout yang merupakan library dari iostream.
+
+## 2.3 Unguided
 
 Pada praktikum Algoritma dan Struktur Data, penulis diberikan studi kasus sebagai bentuk penerapan dari latihan yang diberikan. Berikut ini merupakan studi kasus yang diberikan:
 
-**2.3.1 Soal 1. Tipe Data Primitif (Menghitung Luas Bangun Datar)**
+### 2.3.1 Soal 1. Tipe Data Primitif (Menghitung Luas Bangun Datar)
 
 Soal : Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
 Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
@@ -281,7 +374,7 @@ Kesimpulan:
 
 
 
-**2.3.2 Soal 2. Program dari class dan Struct (Manajemen Produk)**
+### 2.3.2 Soal 2. Program dari class dan Struct (Manajemen Produk)
 
 Soal :Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya 
 
@@ -318,7 +411,7 @@ Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dim
 Kesimpulan:
 
 
-**2.3.3 Soal 3. Program dari Fungsi Map (Nilai Mahasiswa)**
+### 2.3.3 Soal 3. Program dari Fungsi Map (Nilai Mahasiswa)
 
 Soal :Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari 
 array dengan map. 
