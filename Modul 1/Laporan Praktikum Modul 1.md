@@ -3,7 +3,7 @@
 
 # <h2 align="center">BAB 1 PENDAHULUAN</h2>
 
-**1.1 Latar Belakang**
+## 1.1 Latar Belakang
 
 Memahami cara komputer dalam mengoperasikan sesuatu bukanlah hal yang mudah, hal ini perlu pengetahuan khusus yang mendalam. Komputer dapat dengan mudah dan efisien melakukan pekerjaan yang terasa sulit dikerjakan manusia dalam kehidupan sehari-hari. Komputer memiliki bahasanya sendiri untuk mengoperasikan suatu pekerjaan, dan bahasa ini disebut dengan bahasa pemrograman.
 
@@ -13,7 +13,7 @@ Pada tahun 1980 seorang ahli yang bernama Bjarne Stroustrup mengembangkan bebera
 
 Dalam memprogram sebuah komputer diperlukannya pengkodean dengan berbagai macam tipe data yang ada di dalamnya, sama halnya dengan bahasa C++ untuk membentuk kode program diperlukan pemahaman yang mendalam tentang tipe data. Bahasa C++ memiliki berbagai tipe data yang dapat dieksplor secara mendalam oleh penggunanya, seperti integer, float, boolean, char, string, dan lain sebagainya.
 
-**1.2 Rumusan Masalah**
+## 1.2 Rumusan Masalah
 
 Berdasarkan latar belakang di atas, penulis telah merumuskan beberapa masalah yang akan di bahas dalam laporan praktikum ini, sebagai berikut:
 
@@ -21,16 +21,16 @@ Berdasarkan latar belakang di atas, penulis telah merumuskan beberapa masalah ya
 2.	Bagaimana pengaplikasian pada tools yang digunakan?
 3.	Bagaimana pengaplikasian berbagai tipe data pada bahasa pemrograman C++?
 
-**1.3 Tujuan**
+## 1.3 Tujuan
 
 Berikut ini merupakan rumusan tujuan yang dapat dicapai dengan dituliskannya laporan praktikum ini, sebagai berikut:
 1.	Mahasiswa dapat mempelajari tipe data primitif, abstrak, dan kolektif. 
 2.	Mahasiswa dapat memahami pengaplikasian pada tools yang digunakan.
 3.	Mahasiswa mengaplikasikan berbagai tipe data pada bahasa pemograman yang telah ditentukan.
 
-**BAB 2**
+# <h2 align="center">BAB 2 PEMBAHASAN</h2>
 
-**2.1 Dasar Teori**
+## 2.1 Dasar Teori
 
 Bahasa pemrograman, merupakan suatu komando atau perintah yang dibuat manusia untuk membuat komputer menjadi memiliki fungsi tertentu (Hafhis). Bahasa pemrograman bermacam-macam, salah satunya adalah bahasa C++, dimana bahasa ini sangat populer digunakan pada kalangan programer. Seperti bahasa pemrograman lainnya, bahasa C++ juga dapat digunakan untuk mengolah data dengan cukup baik. 
 
@@ -38,7 +38,7 @@ Data adalah fakta-fakta yang berupa angka-angka, teks, dokumen, gambar, bagan, s
 
 Tipe data ini perlu diketahui agar compiler dapat mengetahui bagaimana sebuah data akan digunakan dan diperlakukan (Nauviana Pita). Dengan memahami tipe-tipe data yang digunakan, seorang compiler dapat mempercepat pekerjaannya dalam melakukan pemrograman karena masing-masing tipe data memiliki ciri khasnya masing-masing dan dengan ukuran yang berbeda-beda. Berikut ini merupakan penjabara dari tipe data primitif, tipe data abstrak, dan tipe data koleksi.
 
-**2.1.1 Tipe Data Primitif**
+### 2.1.1 Tipe Data Primitif
 
 Tipe data ini merupakan tipe data yang paling sering digunakan oleh programer karena tipe data primitif ini merupakan tipe data bawaan dari C++ yang dapat dengan langsung untuk digunakan. Tipe data primitif ini memungkinkan programer untuk mengelola berbagai jenis data dengan waktu efisien. Berikut ini merupakan tipe data primitif yang umum digunakan pada bahasa pemrograman C++:
 1.	Integer (int)	: Tipe data yang digunakan untuk menyimpan berbagai bilangan bulat seperti 1,2,3,4,5,....,n
@@ -49,13 +49,13 @@ Tipe data ini merupakan tipe data yang paling sering digunakan oleh programer ka
    
 Dengan tipe data primitif, seorang programmer dapat mengolah berbagai jenis data dengan tipe yang disediakan bahasa C++.
 
-**2.1.2 Tipe Data Abstrak**
+### 2.1.2 Tipe Data Abstrak
 
 Tipe data abstrak atau yang biasa disebut Abstrak Data Type(ADT) banyak digunakan oleh programmer dalam membuat sebuah program. Seperti namanya, tipe data abstrak memiliki struktur yang abstrak, dimana merupakan gabungan dari beberapa tipe data. Dalam pemrograman komputer, tipe data abstrak memungkinkan programer untuk dapat mendefinisikan berbagai tipe data tanpa harus memberikan detail implementasi dari tipe data yang digunakan. 
 
 Pada tipe data abstrak terdapat kelas tipe. Dimana kelas abstrak ini dapat bertindak sebagai ekspresi konsep umum yang merupakan tempat yang lebih spesifik dalam tipe data. Fitur kelas yang terdapat pada C++ adalah Object Oriented Program(OOP) yang dapat membungkus tipe data yang ada di dalamnya sebagai anggota.
 
-**2.1.3 Tipe Data Koleksi**
+### 2.1.3 Tipe Data Koleksi
 
 Collection Data Type(CDT) merupakan tipe data yang digunakan untuk menyimpan beberapa value atyau objek secara bersamaan. Tipe data koleksi memungkinkan programmer untuk mengolah berbagai data besar dengan cara yang efisien dan terstruktur. Terdapat beberapa tipe data koleksi yang sering digunakan sebagai berikut:
 
@@ -66,11 +66,11 @@ Collection Data Type(CDT) merupakan tipe data yang digunakan untuk menyimpan beb
    
 Empat tipe data di atas merupakan beberapa contoh dari tipe data koleksi yang sering digunakan di kalangan programer. Tipe data ini merupakan turunan dari bahasa C namun tetap memiliki perbedaan di dalamnya.
 
-**2.2 Guided**
+## 2.2 Guided
 
 Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai tipe data. Latihan tersebut akan dijelaskan perbagiannya, sebagai berikut:
 
-**2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
+### 2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
 Kode Lengkap
 
 ```C++
@@ -159,7 +159,62 @@ Bagian 5
 
 Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan dengan normal.
 
-**2.2.2 Guided Tipe Data Abstrak (Data Mahasiswa)**
+#### Output Program
+
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided1.png" alt="Alt Text">
+</p>
+
+Dari outputnya kita mengetahui bahwa program akan meminta user untuk menginputkan operator yang ingin digunakannya (`+`, `-`, `*`, `/`). Setelah itu user akan diminta menginputkan dua angka, sehingga operasi aritmatika dapat berjalan dengan baik.
+
+#### Kesimpulan
+Kode program ini merupakan kode yang menyediakan kalkulator sederhana seperti penjumlahan, pengurangan, perkalian, dan pembangian menggunakan bahasa pemrograman C++. Program kalkulator sederhana ini masih menggunakan sistem sederhana dengan menggunakan tipe data Primitif.
+
+### 2.2.2 Guided Tipe Data Abstrak (Data Mahasiswa)
+
+```C++
+// Dua kode di bawah ini merupakan preprocessor
+//digunakan untuk menggunakan input output dan memanipulasi string.
+#include <stdio.h> 
+#include <string.h>
+
+//Struct
+struct Mahasiswa
+{
+            char name[50]; //maksimal 50 char
+            char address[100]; //maksimal 100 char
+            int age;
+};
+int main() //kode inti yang akan dieksekusi
+{
+    //Menggunakan struct dalam pengkodean
+    struct Mahasiswa mhs1, mhs2;
+    //Mengisi value ke struct sesuai yang diinginkan
+    strcpy(mhs1.name, "Rizal");
+    strcpy(mhs1.address, "Bali");
+    mhs1.age = 18;
+    strcpy(mhs2.name, "Mikhael");
+    strcpy(mhs2.address, "Banyumas");
+    mhs2.age = 19;
+
+    //Mencetak value struct sebelumnya.
+    printf("====MAHASISWA 1====\n");
+    printf("Nama : %s\n", mhs1.name);
+    printf("Asal daerah : %s\n", mhs1.address);
+    printf("Umur : %d\n", mhs1.age);
+    printf("\n");
+        printf("====MAHASISWA 2====\n");
+    printf("Nama : %s\n", mhs2.name);
+    printf("Asal daerah : %s\n", mhs2.address);
+    printf("Umur : %d\n", mhs2.age);
+    return 0;
+}
+
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+```
 
 Bagian 1
 
@@ -185,17 +240,61 @@ Bagian 4
 
 Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kita masukkan pada variabel name, address, dan age dari mhs1 dan mhs2 menggunakan fungsi printf. Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
 
-**2.2.3 Tipe Data Koleksi (Nilai Array)** 
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided2.png" alt="Alt Text">
+</p>
+
+Dari output kode di atas, kita mengetahui bahwa variabel name dengan value Rizal, Asal daerah dari variabel address dengan value Bali, dan Umur dari variabel age yang berisi angka 18. Semua variabel tersebut dipanggil sehingga muncul sebagai output. Hal yang sama berlaku pada nama mahasiswa Mikhael.
+
+#### Kesimpulan
+
+Kode di atas merupakan kode yang dapat menampilkan value yang telah diinputkan dari suatu variabel. Dimana pada kode di atas dibuatlah variabel name, address, dan age yang akan menyimpan value yang diinputkan. Dari semua variabel ini merupakan variabel bertipe abstrak yang terdiri dari berbagai jenis tipe data.
+
+### 2.2.3 Guided Tipe Data Koleksi (Nilai Array)
+
+```C++
+#include <iostream>
+#include <array>
+using namespace std;
+
+int main() {
+    //Deklarasi dan inisiasi array
+    int nilai[5];
+    nilai[0] = 20;
+    nilai[1] = 25;
+    nilai[2] = 30;
+    nilai[3] = 35;
+    nilai[4] = 40;
+
+//Mencetak array dengan tab
+cout<<endl<<endl;
+cout << "The value from the first array is : "<< nilai[0]<<endl<<endl;
+cout << "The value from the second array is : "<< nilai[1]<<endl<<endl;
+cout << "The value from the third array is : "<< nilai[2]<<endl<<endl;
+cout << "The value from the fourth is : "<< nilai[3]<<endl<<endl;
+cout << "The value from the fifth array is : "<< nilai[4]<<endl<<endl;
+return 0;
+}
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+```
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png" alt="Alt Text">
+</p>
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png" alt="Alt Text">
+</p>
 
 Fungsi 'main' merupakan fungsi yang akan diutamakan untuk dieksekusi. Di dalam fungsi main terdapat int nilai dengan 5 elemen bertipe integer, nilai dari setiap elemennya dideklarasikan secara terpisah mulai dari indeks ke-0 hingga indeks ke-4.
 
@@ -205,11 +304,22 @@ Bagian 3
 
 Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah kita buat menggunakan `cout` dari class `ostream` mulai dari array indeks ke-0 hingga array indeks ke-4. Berikutnya ada endl yang digunakan untuk membuat baris baru.
 
-**2.3 Unguided**
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided3.png" alt="Alt Text">
+</p>
+
+Dari output yang dihasilkan kita mengetahui value dari array pertama hingga array ke-lima. Dengan mendeklarasikan suatu variabel sebelumnya lalu memaggilnya pada cout, program dapat berjalan dengan menggunakan tipe data koleksi.
+
+#### Kesimpulan
+
+Pada program di atas, dibuatlah kode menggunakan tipe data koleksi. Dengan membuat array yang terdiri dari 5 elemen. Lalu elemen-elemen tersebut akan dipanggil menggunakan cout yang merupakan library dari iostream.
+
+## 2.3 Unguided
 
 Pada praktikum Algoritma dan Struktur Data, penulis diberikan studi kasus sebagai bentuk penerapan dari latihan yang diberikan. Berikut ini merupakan studi kasus yang diberikan:
 
-**2.3.1 Soal 1. Tipe Data Primitif (Menghitung Luas Bangun Datar)**
+### 2.3.1 Soal 1. Unguided Tipe Data Primitif (Menghitung Luas Bangun Datar)
 
 Soal : Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
 Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
@@ -217,9 +327,90 @@ materi tipe data primitif!
 
 Jawab :
 
+```C++
+#include <iostream>
+using namespace std;
+
+// Konstanta untuk nilai phi (π)
+const float PI = 3.14;
+
+// Fungsi untuk menghitung luas persegi panjang
+float hitungLuasPersegiPanjang(float panjang, float lebar) {
+    return panjang * lebar;
+}
+
+// Fungsi untuk menghitung luas segitiga
+float hitungLuasSegitiga(float alas, float tinggi) {
+    return 0.5 * alas * tinggi;
+}
+
+// Fungsi untuk menghitung luas lingkaran
+float hitungLuasLingkaran(float jariJari) {
+    return PI * jariJari * jariJari;
+}
+
+// Fungsi untuk menampilkan pesan salam
+void pesanSalam(char nama[]) {
+    cout << "Halo, selamat datang " << nama << "!" << endl;
+}
+
+int main() {
+    float panjang, lebar, alas, tinggi, jariJari;
+    char nama[50];
+    int choice;
+
+    cout << "Masukkan nama Anda: ";
+    cin.getline(nama, 50);
+
+        // Memanggil fungsi pesanSalam
+    pesanSalam(nama);
+
+    cout << "Pilih bangun datar yang ingin dihitung luasnya:" << endl;
+    cout << "1. Persegi Panjang" << endl;
+    cout << "2. Segitiga" << endl;
+    cout << "3. Lingkaran" << endl;
+    cout << "Masukkan pilihan Anda (1/2/3): ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            cout << "Masukkan panjang persegi panjang: ";
+            cin >> panjang;
+            cout << "Masukkan lebar persegi panjang: ";
+            cin >> lebar;
+            cout << "Luas persegi panjang dengan panjang " << panjang << " dan lebar " << lebar << " adalah: " << hitungLuasPersegiPanjang(panjang, lebar) << endl;
+            break;
+        case 2:
+            cout << "Masukkan alas segitiga: ";
+            cin >> alas;
+            cout << "Masukkan tinggi segitiga: ";
+            cin >> tinggi;
+            cout << "Luas segitiga dengan alas " << alas << " dan tinggi " << tinggi << " adalah: " << hitungLuasSegitiga(alas, tinggi) << endl;
+            break;
+        case 3:
+            cout << "Masukkan jari-jari lingkaran: ";
+            cin >> jariJari;
+            cout << "Luas lingkaran dengan jari-jari " << jariJari << " adalah: " << hitungLuasLingkaran(jariJari) << endl;
+            break;
+        default:
+            cout << "Pilihan tidak valid." << endl;
+    }
+
+    return 0;
+}
+
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+// S1SD-04-B
+
+```
+
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png" alt="Alt Text">
+</p>
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
@@ -264,11 +455,18 @@ Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi p
 
 Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
 
-Kesimpulan:
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguided1.png" alt="Alt Text">
+</p>
 
+Program kalkulator luas bangun datar.Dari output yang dihasilkan user akan diminta untuk memasukkan nama terlebih dahulu. Lalu akan diberikan salam oleh sistem setelah nama diinputkan. Berikutnya program akan menampilkan pilihan bangun datar yang dapat dihitung luasnya oleh program lalu user diminta untuk memilih dari 3 pilihan yang diberikan. Jika user memasukkan nilai diluar 3 pilihan yang diberikan maka program akan eror. Namun karena user memilih nomor 3, maka program akan mengarahkan ke perhitungan luas lingkaran. User kembali diminta untuk memasukkan jari-jari lingkarannya dan phi tidak perlu dimasukkan karena pada program phi sudah tercantum dengan nilai konstan. Sehingga hasil luas lingkaran dengan jari-jari 7 dapat muncul dengan nilai 153.86.
 
+#### Kesimpulan
 
-**2.3.2 Program dari class dan Struct (Manajemen Produk)**
+Dengan menggunakan tipe data primitif seorang programer dapat dengan mudah untuk membuat program-program sederhana seperti halnya kalkulator. Terlebih lagi tipe data primitif adalah tipe data yang langsung disediakan oleh C++ tersendiri sehingga akan sangat fleksibel dalam penggunaannya. Pada tipe data primitif ini juga terdapat berbagai macam tipe data yang populer dan sering digunakan seperti Integer, Float, Char, Void, String, Bool, dll. Namun sayangnya, tipe data primitif ini kurang direkomendasikan untuk menjangkau data yang komplekstibilitasnya tinggi.
+
+### 2.3.2 Soal 2. Program dari class dan Struct (Manajemen Produk)
 
 Soal :Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya 
 
@@ -276,7 +474,9 @@ Jawab :
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png" alt="Alt Text">
+</p>
 
 Pada bagian <iostream> menggunakan library input dan output standar, berikutnya ada <vector> yang menggunakan struktur data vector yang dinamis, dan <string> library yang digunakan untuk menggunakan tipe data string. Name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
@@ -286,10 +486,80 @@ Bagian 2
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
 
+Pada kode di atas terdapat class dengan nama ManajemenPenjualan yang di dalamnya terdapat vector daftar produk yang bersifat privat yang akan menyimpan daftar produk yang tersedia. Berikutnya ada void tambah produk yang berisi parameter nama produk dalam string dan harga produk dalam integer yang bersifat public sehingga dapat diakses dari luar class. Di akhir daftarProduk terdapat push_back(produk) yang berguna untuk menambahkan elemen baru dibelakang vektornya seperti produk baru.
+
 Bagian 3
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2c.png?raw=true)
 
+Pada kode void tampilkanDaftarProduk() bersifat publik yang berguna untuk menampilkan daftar produk yang tersedia dengan menggunakan perulangan for. For ini akan mengeksekusi perintah yang ada di dalamnya mulai dari i = 0 hingga i mencapai ukuran vektor daftarProduk. 
+
 Bagian 4
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
+
+Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.\
+
+Kesimpulan:
+
+
+### 2.3.3 Soal 3. Program dari Fungsi Map (Nilai Mahasiswa)
+
+Soal :Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari 
+array dengan map. 
+
+Jawab :
+
+Bagian 1
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3a.png" alt="Alt Text">
+</p>
+
+Pada kode di atas kita menggunakan beberapa library seperti <iostream> untuk input dn output. <map> yang digunakan untuk menyimpan data dalam bentuk key-value pairs. <string> digunakan untuk mengolah string. <iomanip> digunakan untuk mengatur tata letak output seperti lebar dan presisi output.
+
+Bagian 2
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3b.png" alt="Alt Text">
+</p>
+
+Struktur data NilaiMahasiswa memiliki dua anggota yaitu nilai mahasiswa dalam float dan grade yang menyimpan tingkatan berdasarkan nilai. Terdapat juga class 'Nilai Manager' yang dapat menyimpan dataNilai menggunakan <map> yang menyimpan nilai mahasiswa berdasarkan nama dan mata kuliah.
+
+Bagian 3
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3c.png" alt="Alt Text">
+</p>\
+
+Pada bagian ini terdapat variabel tambahNilai dengan 2 parameter yaitu nama, matkul yang menggunakan string, dan nilai yang menggunakan float yang digunakan untuk menambahkan nilai mahasiswa ke dalam map 'dataNilai' Grade juga dapat dihitung berdasarkan nilai yang diinputkan. Berikutnya ada tampilkan nilai menggunakan parameter nama menggunakan string. Dari kedua variabel ini semuanya bersifat public. Nilai yang dimasukkan memiliki batasan dari 0 hingga 100, jika keluar dari batas tersebut maka akan error.
+
+Bagian 4
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3d.png" alt="Alt Text">
+</p>
+
+Disini kita akan mendefinisikan grade-grade nilai sesuai yang kita inginkan seprti nilai di atas 79 akan mendapat grade A, nilai 70-79 grade B, nilai 60-69 grade C, nilai 50-59 grade D, di luar tersebut maka nilainya E.
+
+Bagian 5
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3e.png" alt="Alt Text">
+</p>
+
+Pada kode di atas void tampilkanNilai menggunakan parameter nama berbentuk string. Dengan ini menampilkan mahasiswa berdasarkan nama yang diberikan. Berikut algoritma sehingga kode berjalan:
+1. Pengecekan apakah nama mahasiswa tersebut ada di dalam map dataNilai atau tidak.
+2. Jika nama mahasiswa ditemukan maka nilai mahasiswa tersebut akan tampil.
+3. Mata kuliah dan nilai akan dipasangkan menggunakan setw untuk mengatur lebar output.\
+4. Jika nama mahasiswa tidak ditermukan maka akan muncul pesan "Mahasiswa dengan nama...tidak ditemukan.
+
+Bagian 6
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3f.png" alt="Alt Text">
+</p>
+
+Pada fungsi di atas dibuatlah fungsi inti atau main function. Dengan dibuatnya objek 'nilaiManager' dari kelas NilaiManager, lalu memanggil 'tambahNilai()' untuk menambahkan nilai mahasiswa, dan memanggil 'tampilkanNilai()' untuk menampilkan mahasiswa yang mau di panggil.
+
+Return 0 menyatakan bahwa perulangan tidak perlu dilakukan dan program telah berjalan dengan normal.
