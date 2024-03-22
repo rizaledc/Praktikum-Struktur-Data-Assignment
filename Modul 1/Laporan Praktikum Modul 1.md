@@ -165,6 +165,8 @@ Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan den
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided1.png" alt="Alt Text">
 </p>
 
+Dari outputnya kita mengetahui bahwa program akan meminta user untuk menginputkan operator yang ingin digunakannya (`+`, `-`, `*`, `/`). Setelah itu user akan diminta menginputkan dua angka, sehingga operasi aritmatika dapat berjalan dengan baik.
+
 #### Kesimpulan
 Kode program ini merupakan kode yang menyediakan kalkulator sederhana seperti penjumlahan, pengurangan, perkalian, dan pembangian menggunakan bahasa pemrograman C++. Program kalkulator sederhana ini masih menggunakan sistem sederhana dengan menggunakan tipe data Primitif.
 
@@ -243,11 +245,13 @@ Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kit
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided2.png" alt="Alt Text">
 </p>
 
+Dari output kode di atas, kita mengetahui bahwa variabel name dengan value Rizal, Asal daerah dari variabel address dengan value Bali, dan Umur dari variabel age yang berisi angka 18. Semua variabel tersebut dipanggil sehingga muncul sebagai output. Hal yang sama berlaku pada nama mahasiswa Mikhael.
+
 #### Kesimpulan
 
 Kode di atas merupakan kode yang dapat menampilkan value yang telah diinputkan dari suatu variabel. Dimana pada kode di atas dibuatlah variabel name, address, dan age yang akan menyimpan value yang diinputkan. Dari semua variabel ini merupakan variabel bertipe abstrak yang terdiri dari berbagai jenis tipe data.
 
-### 2.2.3 Tipe Data Koleksi (Nilai Array)
+### 2.2.3 Guided Tipe Data Koleksi (Nilai Array)
 
 ```C++
 #include <iostream>
@@ -305,6 +309,8 @@ Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah 
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided3.png" alt="Alt Text">
 </p>
 
+Dari output yang dihasilkan kita mengetahui value dari array pertama hingga array ke-lima. Dengan mendeklarasikan suatu variabel sebelumnya lalu memaggilnya pada cout, program dapat berjalan dengan menggunakan tipe data koleksi.
+
 #### Kesimpulan
 
 Pada program di atas, dibuatlah kode menggunakan tipe data koleksi. Dengan membuat array yang terdiri dari 5 elemen. Lalu elemen-elemen tersebut akan dipanggil menggunakan cout yang merupakan library dari iostream.
@@ -313,7 +319,7 @@ Pada program di atas, dibuatlah kode menggunakan tipe data koleksi. Dengan membu
 
 Pada praktikum Algoritma dan Struktur Data, penulis diberikan studi kasus sebagai bentuk penerapan dari latihan yang diberikan. Berikut ini merupakan studi kasus yang diberikan:
 
-### 2.3.1 Soal 1. Tipe Data Primitif (Menghitung Luas Bangun Datar)
+### 2.3.1 Soal 1. Unguided Tipe Data Primitif (Menghitung Luas Bangun Datar)
 
 Soal : Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
 Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
@@ -370,9 +376,16 @@ Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi p
 
 Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
 
-Kesimpulan:
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguided1.png" alt="Alt Text">
+</p>
 
+Program kalkulator luas bangun datar.Dari output yang dihasilkan user akan diminta untuk memasukkan nama terlebih dahulu. Lalu akan diberikan salam oleh sistem setelah nama diinputkan. Berikutnya program akan menampilkan pilihan bangun datar yang dapat dihitung luasnya oleh program lalu user diminta untuk memilih dari 3 pilihan yang diberikan. Jika user memasukkan nilai diluar 3 pilihan yang diberikan maka program akan eror. Namun karena user memilih nomor 3, maka program akan mengarahkan ke perhitungan luas lingkaran. User kembali diminta untuk memasukkan jari-jari lingkarannya dan phi tidak perlu dimasukkan karena pada program phi sudah tercantum dengan nilai konstan. Sehingga hasil luas lingkaran dengan jari-jari 7 dapat muncul dengan nilai 153.86.
 
+#### Kesimpulan
+
+Dengan menggunakan tipe data primitif seorang programer dapat dengan mudah untuk membuat program-program sederhana seperti halnya kalkulator. Terlebih lagi tipe data primitif adalah tipe data yang langsung disediakan oleh C++ tersendiri sehingga akan sangat fleksibel dalam penggunaannya.
 
 ### 2.3.2 Soal 2. Program dari class dan Struct (Manajemen Produk)
 
