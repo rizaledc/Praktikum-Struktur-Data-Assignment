@@ -71,13 +71,13 @@ Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai 
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1a.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1a.png?raw=true)
 
 Pada bahasa pemrograman C++ jika kita ingin menggunakan input dan output pada program maka harus memanggil library <iostream> terlebih dahulu. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1b.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1b.png?raw=true)
 
 Pada kode di atas, penulis menggunakan int main() yang mengartikan bahwa kode tersebut merupakan kode inti yang akan dieksekusi lebih awal dibandingkan dengan kode lainnya. Di dalam int main() tersebut terdapat char op, dimana op ini digunakan untuk menampung inputan operator dari pengguna nantinya. Berikutnya ada cout yang digunakan untuk mengeluarkan output yang diinginkan seperti pada di atas tedapat string. Terakhir pada bagian 2 ini terdapat float num1 dan num2 yang akan menginisiasi variabel yang akan digunakan pada program di bawahnya.
 
