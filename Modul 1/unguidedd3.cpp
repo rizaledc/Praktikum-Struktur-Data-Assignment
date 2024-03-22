@@ -67,7 +67,14 @@ int main() {
     return 0;
 }
 
+<<<<<<< HEAD:Modul 1/unguidedd3.cpp
 
 //RIZAL WAHYU PRATAMA
 //2311110029
 //copyright@rizal.edc2024
+=======
+// RIZAL WAHYU PRATAMA
+// 2311110029
+//copyright@rizal.edc2024
+//S1SD-04-B
+>>>>>>> 1d9672d35df85a7ad3d40d653d70cd236b5dcf74:unguidedd3.cpp
