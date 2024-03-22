@@ -7,9 +7,9 @@
 
 Memahami cara komputer dalam mengoperasikan sesuatu bukanlah hal yang mudah, hal ini perlu pengetahuan khusus yang mendalam. Komputer dapat dengan mudah dan efisien melakukan pekerjaan yang terasa sulit dikerjakan manusia dalam kehidupan sehari-hari. Komputer memiliki bahasanya sendiri untuk mengoperasikan suatu pekerjaan, dan bahasa ini disebut dengan bahasa pemrograman.
 
-Bahasa pemrograman, atau sering diistilahkan dengan bahasa komputer, merupakan teknik komando atau intruksi standar untuk memerintah komputer(Luh Joni). Dalam dunia pemrograman terdapat banyak bahasa pemrograman yang dapat digunakan untuk mengoperasikan suatu komputer dan membentuk suatu sistem komputer, salah satu bahasa tersebut adalah C++.  Bahasa C++ dapat digunakan juga untuk membuat aplikasi yang didistribusikan ke beberapa mesin (Maman Somantri). Dengan memprogram suatu aplikasi yang didistribusikan ke beberapa mesin, seseorang dapat mengarahkan mesin sesuai yang diinginkannya.
+Bahasa pemrograman, atau sering diistilahkan dengan bahasa komputer, merupakan teknik komando atau intruksi standar untuk memerintah komputer(Dewi, 2016). Dalam dunia pemrograman terdapat banyak bahasa pemrograman yang dapat digunakan untuk mengoperasikan suatu komputer dan membentuk suatu sistem komputer, salah satu bahasa tersebut adalah C++.  Bahasa C++ dapat digunakan juga untuk membuat aplikasi yang didistribusikan ke beberapa mesin(Somantri, 2005). Dengan memprogram suatu aplikasi yang didistribusikan ke beberapa mesin, seseorang dapat mengarahkan mesin sesuai yang diinginkannya.
 
-Pada tahun 1980 seorang ahli yang bernama Bjarne Stroustrup mengembangkan beberapa hal dari bahasa C yang dinamakan “C with Classes” yang pada mulanya disebut “a better C” dan berganti nama pada tahun 1983 menjadi C++ oleh Rick Mascitti, dibuat di Laboratorium Bell, AT&T (Modul). Pengembangan bahasa C terus berlanjut, hingga pada C++ ini ditambahkan konsep yang baru seperti class yang sifatnya Object Oriented Programming (OOP) dengan tujuan mempermudah programer dalam mengelola program yang kompleks.
+Pada tahun 1980 seorang ahli yang bernama Bjarne Stroustrup mengembangkan beberapa hal dari bahasa C yang dinamakan “C with Classes” yang pada mulanya disebut “a better C” dan berganti nama pada tahun 1983 menjadi C++ oleh Rick Mascitti, dibuat di Laboratorium Bell, AT&T (ALGORITMA & PEMROGRAMAN (C++), 2016). Pengembangan bahasa C terus berlanjut, hingga pada C++ ini ditambahkan konsep yang baru seperti class yang sifatnya Object Oriented Programming (OOP) dengan tujuan mempermudah programer dalam mengelola program yang kompleks.
 
 Dalam memprogram sebuah komputer diperlukannya pengkodean dengan berbagai macam tipe data yang ada di dalamnya, sama halnya dengan bahasa C++ untuk membentuk kode program diperlukan pemahaman yang mendalam tentang tipe data. Bahasa C++ memiliki berbagai tipe data yang dapat dieksplor secara mendalam oleh penggunanya, seperti integer, float, boolean, char, string, dan lain sebagainya.
 
@@ -32,9 +32,9 @@ Berikut ini merupakan rumusan tujuan yang dapat dicapai dengan dituliskannya lap
 
 ## 2.1 Dasar Teori
 
-Bahasa pemrograman, merupakan suatu komando atau perintah yang dibuat manusia untuk membuat komputer menjadi memiliki fungsi tertentu (Hafhis). Bahasa pemrograman bermacam-macam, salah satunya adalah bahasa C++, dimana bahasa ini sangat populer digunakan pada kalangan programer. Seperti bahasa pemrograman lainnya, bahasa C++ juga dapat digunakan untuk mengolah data dengan cukup baik. 
+Bahasa pemrograman, merupakan suatu komando atau perintah yang dibuat manusia untuk membuat komputer menjadi memiliki fungsi tertentu (Gustiawan et al., 2020). Bahasa pemrograman bermacam-macam, salah satunya adalah bahasa C++, dimana bahasa ini sangat populer digunakan pada kalangan programer. Seperti bahasa pemrograman lainnya, bahasa C++ juga dapat digunakan untuk mengolah data dengan cukup baik. 
 
-Data adalah fakta-fakta yang berupa angka-angka, teks, dokumen, gambar, bagan, suara, yang mewakili deskripsi verbal atau kode tertentu, dan semacamnya(Aditya). Dari berbagai macam jenis data ini, kita dapat mengetahui dan mengelompokkan data menjadi beberapa tipe. Terdapat beberapa tipe data yang umum ditemui dan dikelompokkan dalam beberapa kategori seperti tipe data primitif, tipe data abstrak, dan tipe data koleksi.
+Data adalah fakta-fakta yang berupa angka-angka, teks, dokumen, gambar, bagan, suara, yang mewakili deskripsi verbal atau kode tertentu, dan semacamnya(Nauviana Pita,2020). Dari berbagai macam jenis data ini, kita dapat mengetahui dan mengelompokkan data menjadi beberapa tipe. Terdapat beberapa tipe data yang umum ditemui dan dikelompokkan dalam beberapa kategori seperti tipe data primitif, tipe data abstrak, dan tipe data koleksi.
 
 Tipe data ini perlu diketahui agar compiler dapat mengetahui bagaimana sebuah data akan digunakan dan diperlakukan (Nauviana Pita). Dengan memahami tipe-tipe data yang digunakan, seorang compiler dapat mempercepat pekerjaannya dalam melakukan pemrograman karena masing-masing tipe data memiliki ciri khasnya masing-masing dan dengan ukuran yang berbeda-beda. Berikut ini merupakan penjabara dari tipe data primitif, tipe data abstrak, dan tipe data koleksi.
 
@@ -760,4 +760,14 @@ Array dan map merupakan dua struktur data yang umum digunakan pada C++. Namun pe
 Berdasarkan materi yang telah diberikan pada modul 1, praktikum pada modul 1 berfokus pada pengenalan tipe-tipe data yang ada pada bahasa pemrograman C++. Dari berbagai macam tipe data ini, kita dapat mengetahui dan mengelompokkan data menjadi beberapa tipe. Terdapat beberapa tipe data yang umum ditemui dan dikelompokkan dalam beberapa kategori seperti tipe data primitif, tipe data abstrak, dan tipe data koleksi. Dimana tipe data primitif ini merupakan tipe data yang telah disediakan langsung oleh bahasa C++, tipe data abstrak yang merupakan gabungan dari banyaknya tipe data sehingga fleksibel digunakan, dan tipe data koleksi yang lebih mengedepankan memberi value pada sebuah variabel yang dibentuk dengan map, array, dan lain sebagainya. Dengan mempelajari dan mempraktikkan modul 1 ini, mahasiswa mampu membuat dan mengoperasikan berbagai program dengan berbagai tipe data.
 
 # <h2 align="center">DAFTAR PUSTAKA</h2>
+
+ALGORITMA & PEMROGRAMAN (C++) (2016th ed.). (2016).
+
+Dewi, L. J. E. (2016). MEDIA PEMBELAJARAN BAHASA PEMROGRAMAN C++. Revista Brasileira de Linguística Aplicada, 5(1), 1689–1699. https://revistas.ufrj.br/index.php/rce/article/download/1659/1508%0Ahttp://hipatiapress.com/hpjournals/index.php/qre/article/view/1348%5Cnhttp://www.tandfonline.com/doi/abs/10.1080/09500799708666915%5Cnhttps://mckinseyonsociety.com/downloads/reports/Educati
+
+Gustiawan, H., Miftahuddin, Royan, S. S. D., M, R. erita, & Fitria, H. (2020). Tipe Data, Variabel Dan Operator.
+
+Somantri, M. (2005). Membangun Sistem Komputasi Terdistribusi Dengan Pemrograman C++. Transmisi, 9(1 Juny 2005), 26 – 30.
+
+Tammam, A. G. (n.d.). Mengenal Tipe Data dalam Pemrograman. http://tammam.id
 
