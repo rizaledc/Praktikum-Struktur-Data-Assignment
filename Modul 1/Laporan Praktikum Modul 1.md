@@ -1,7 +1,7 @@
 # <h1 align="center">Laporan Praktikum Modul 1 Tipe Data</h1>
 <p align="center">Rizal Wahyu Pratama</p>
 
-**BAB 1**
+# <h2 align="center">BAB 1 PENDAHULUAN</h2>
 
 **1.1 Latar Belakang**
 
@@ -71,6 +71,11 @@ Empat tipe data di atas merupakan beberapa contoh dari tipe data koleksi yang se
 Pada praktikum ini penulis telah mendapatkan beberapa latihan mengenai berbagai tipe data. Latihan tersebut akan dijelaskan perbagiannya, sebagai berikut:
 
 **2.2.1 Guided Tipe Data Primitif (Program Kalkulator Sederhana)**
+Kode Lengkap
+
+```C++
+
+```
 
 Bagian 1
 
@@ -86,19 +91,19 @@ Pada kode di atas, penulis menggunakan int main() yang mengartikan bahwa kode te
 
 Bagian 3
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1c.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1c.png?raw=true)
 
 Pada bagian 3 ini kita menggunakan cout kembali karena ingin mengeluarkan string dan meminta inputan dari pengguna menggunakan cin >> op dimana op nya akan menampung inputan pengguna. Berikutnya ada cout kembali dimana cout pertama dan kedua sama sama meminta inputan angka pertama dan angka kedua yang akan dimasukkan.
 
 Bagian 4
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1d.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1d.png?raw=true)
 
 Pada kode di atas, terdapat switch(op) yang bertujuan untuk membaca inputan dari pengguna lalu disesuaikan dengan case yang berlaku. Jika pengguna menginputkan + maka akan masuk ke case 1, jika pengguna menginputkan – maka akan masuk ke case 2, jika pengguna menginputkan * maka akan masuk ke case 3, dan jika pengguna menginputkan / maka akan masuk ke case 4.	Namun jika dari ke-4 operator (`+`,`-`,`*`,`/`) tidak ada yang diinputkan atau inputan berbeda berlaku case 5.
 
 Bagian 5
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1e.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided1e.png?raw=true)
 
 Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan dengan normal.
 
@@ -106,25 +111,25 @@ Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan den
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2a.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2a.png?raw=true)
 
 Kode di atas menggunakan std input output dan string. Dimana tujuan utamanya adalah mencantumkan output dan input pada program dan dapat memanipulasi string pada program.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2b.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2b.png?raw=true)
 
 struct Mahasiswa terdiri dari tiga anggota yaitu name yang maksimal karakternya 50, address maksimal karakternya 100, dan age merupakan integer yang mewakili umur dari mahasiswa.
 
 Bagian 3
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2c.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2c.png?raw=true)
 
 int main() merupakan sebuah fungsi utama yang akan dieksekusi. Dari fungsi utama ini terdapat variabel mhs1, mhs2 dari tipe struct "Mahasiswa". Berikutnya kita dapat mengisi value dari name, address, dan age dari mhs1 dan mhs2. Dari kodingan di atas terdapat Mahasiswa 1 dengan nama Rizal address Bali umurnya 18, berikutnya Mahasiswa 2 dengan nama Mikhael address Banyumas umur 19.
 
 Bagian 4
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2d.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided2d.png?raw=true)
 
 Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kita masukkan pada variabel name, address, dan age dari mhs1 dan mhs2 menggunakan fungsi printf. Return 0 pada kodingan menyatakan bahwa kode telah selesai di eksekusi dan tidak perlu diulangi lagi.
 
@@ -132,19 +137,19 @@ Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kit
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png?raw=true)
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png?raw=true)
 
 Fungsi 'main' merupakan fungsi yang akan diutamakan untuk dieksekusi. Di dalam fungsi main terdapat int nilai dengan 5 elemen bertipe integer, nilai dari setiap elemennya dideklarasikan secara terpisah mulai dari indeks ke-0 hingga indeks ke-4.
 
 Bagian 3
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3c.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3c.png?raw=true)
 
 Pada bagian 3 ini kita akan mencetak nilai dari seluruh elemen array yang telah kita buat menggunakan `cout` dari class `ostream` mulai dari array indeks ke-0 hingga array indeks ke-4. Berikutnya ada endl yang digunakan untuk membuat baris baru.
 
@@ -162,13 +167,13 @@ Jawab :
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png?raw=true)
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1b.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1b.png?raw=true)
 
 
 Const PI menyatakan nilai 3.14 yang konstan tidak dapat diubah-ubah. Berikutnya kita akan mendeklarasikan function. Seperti:
@@ -183,7 +188,7 @@ Const PI menyatakan nilai 3.14 yang konstan tidak dapat diubah-ubah. Berikutnya 
 
 Bagian 3
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1c.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1c.png?raw=true)
 
 Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi pertama saat menjalankan program. Berikut ini jalan dari fungsi main atau fungsi utamanya:
 
@@ -192,15 +197,15 @@ Berikutnya pada kodingan di atas kita membuat fungsi main yang akan dieksekusi p
 - Fungsi pesanSalam() ini digunakan untuk menyapa pengguna yang menggunakan program.
 - Berikutnya menggunakan cout untuk menambahkan string yang berupa kalimat dan meminta inputan dari pengguna menggunakan cin >> choice.
 - 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1d.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1d.png?raw=true)
 
 - Jika pengguna memasukkan angka 1 maka akan masuk ke case 1 yang merupakan rumus pengukuran luas persegi panjang.
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1e.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1e.png?raw=true)
   
 - Jika pengguna memasukkan angka 2 maka akan masuk ke case 2 yang merupakan rumus pengukuran luas segitiga.
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1f.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1f.png?raw=true)
   
 - Jika pengguna memasukkan angka 3 maka akan masuk ke case 3 yang merupakan rumus pengukuran luas lingkaran.
 - Jika pengguna tidak memasukkan dari 3 pilihan tersebut maka akan masuk ke default yang akan mengeluarkan pesan "Pilihan tidak valid".
@@ -219,7 +224,7 @@ Jawab :
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png?raw=true)
 
 Pada bagian <iostream> menggunakan library input dan output standar, berikutnya ada <vector> yang menggunakan struktur data vector yang dinamis, dan <string> library yang digunakan untuk menggunakan tipe data string. Name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
@@ -227,12 +232,12 @@ Pada bagian struct Produk ini mendefinisikan sebuah struktur dengan nama Produk 
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
 
 Bagian 3
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2c.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2c.png?raw=true)
 
 Bagian 4
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
+![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
