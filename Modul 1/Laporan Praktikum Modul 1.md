@@ -28,7 +28,7 @@ Berikut ini merupakan rumusan tujuan yang dapat dicapai dengan dituliskannya lap
 2.	Mahasiswa dapat memahami pengaplikasian pada tools yang digunakan.
 3.	Mahasiswa mengaplikasikan berbagai tipe data pada bahasa pemograman yang telah ditentukan.
 
-**BAB 2**
+# <h2 align="center">BAB 2 PEMBAHASAN</h2>
 
 **2.1 Dasar Teori**
 
@@ -301,12 +301,16 @@ Bagian 2
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
 
-Pada bagian class ini mendefinisikan sebuah class dengan nama ManajemenPenjualan. Di dalam manajemen penjualan ini terdapat vector yang akan menyimpan daftar produk yang tersedia. Berikutnya ada public yang berguna untuk akses semua anggota dapat diakses dari luar class. Dalam public terdapat void tambahProduk yang memiliki parameter untuk menampung string nama barang dan integer harga barang. Terdapat push_back(produk) pada akhir kode tambah produk yang digunakan untuk menambahkan elemen baru dibelakang vektor seperti menambahkan objek produk ke dalam vektor daftar produk.
+Pada kode di atas terdapat class dengan nama ManajemenPenjualan yang di dalamnya terdapat vector daftar produk yang bersifat privat yang akan menyimpan daftar produk yang tersedia. Berikutnya ada void tambah produk yang berisi parameter nama produk dalam string dan harga produk dalam integer yang bersifat public sehingga dapat diakses dari luar class. Di akhir daftarProduk terdapat push_back(produk) yang berguna untuk menambahkan elemen baru dibelakang vektornya seperti produk baru.
 
 Bagian 3
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2c.png?raw=true)
 
+Pada kode void tampilkanDaftarProduk() bersifat publik yang berguna untuk menampilkan daftar produk yang tersedia dengan menggunakan perulangan for. For ini akan mengeksekusi perintah yang ada di dalamnya mulai dari i = 0 hingga i mencapai ukuran vektor daftarProduk. 
+
 Bagian 4
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
+
+Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.
