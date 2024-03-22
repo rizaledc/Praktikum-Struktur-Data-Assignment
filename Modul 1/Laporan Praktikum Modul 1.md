@@ -281,7 +281,7 @@ Kesimpulan:
 
 
 
-**2.3.2 Program dari class dan Struct (Manajemen Produk)**
+**2.3.2 Soal 2. Program dari class dan Struct (Manajemen Produk)**
 
 Soal :Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya 
 
@@ -313,4 +313,47 @@ Bagian 4
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
 
-Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.
+Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.\
+
+Kesimpulan:
+
+
+**2.3.3 Soal 3. Program dari Fungsi Map (Nilai Mahasiswa)**
+
+Soal :Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari 
+array dengan map. 
+
+Jawab :
+
+Bagian 1
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3a.png" alt="Alt Text">
+</p>
+
+Pada kode di atas kita menggunakan beberapa library seperti <iostream> untuk input dn output. <map> yang digunakan untuk menyimpan data dalam bentuk key-value pairs. <string> digunakan untuk mengolah string. <iomanip> digunakan untuk mengatur tata letak output seperti lebar dan presisi output.
+
+Bagian 2
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3b.png" alt="Alt Text">
+</p>
+
+Struktur data NilaiMahasiswa memiliki dua anggota yaitu nilai mahasiswa dalam float dan grade yang menyimpan tingkatan berdasarkan nilai. Terdapat juga class 'Nilai Manager' yang dapat menyimpan dataNilai menggunakan <map> yang menyimpan nilai mahasiswa berdasarkan nama dan mata kuliah.
+
+Bagian 3
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3c.png" alt="Alt Text">
+</p>\
+
+Pada bagian ini terdapat variabel tambahNilai dengan 2 parameter yaitu nama, matkul yang menggunakan string, dan nilai yang menggunakan float yang digunakan untuk menambahkan nilai mahasiswa ke dalam map 'dataNilai' Grade juga dapat dihitung berdasarkan nilai yang diinputkan. Berikutnya ada tampilkan nilai menggunakan parameter nama menggunakan string. Dari kedua variabel ini semuanya bersifat public. Nilai yang dimasukkan memiliki batasan dari 0 hingga 100, jika keluar dari batas tersebut maka akan error.
+
+Bagian 4
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3d.png" alt="Alt Text">
+</p>\
+
+Disini kita akan mendefinisikan grade-grade nilai sesuai yang kita inginkan seprti nilai di atas 79 akan mendapat grade A, nilai 70-79 grade B, nilai 60-69 grade C, nilai 50-59 grade D, di luar tersebut maka nilainya E.
+
