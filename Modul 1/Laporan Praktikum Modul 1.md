@@ -353,7 +353,7 @@ Bagian 4
 
 <p align = "center">
    <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3d.png" alt="Alt Text">
-</p>\
+</p>
 
 Disini kita akan mendefinisikan grade-grade nilai sesuai yang kita inginkan seprti nilai di atas 79 akan mendapat grade A, nilai 70-79 grade B, nilai 60-69 grade C, nilai 50-59 grade D, di luar tersebut maka nilainya E.
 
