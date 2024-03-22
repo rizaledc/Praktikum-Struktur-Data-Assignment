@@ -357,3 +357,24 @@ Bagian 4
 
 Disini kita akan mendefinisikan grade-grade nilai sesuai yang kita inginkan seprti nilai di atas 79 akan mendapat grade A, nilai 70-79 grade B, nilai 60-69 grade C, nilai 50-59 grade D, di luar tersebut maka nilainya E.
 
+Bagian 5
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3e.png" alt="Alt Text">
+</p>
+
+Pada kode di atas void tampilkanNilai menggunakan parameter nama berbentuk string. Dengan ini menampilkan mahasiswa berdasarkan nama yang diberikan. Berikut algoritma sehingga kode berjalan:
+1. Pengecekan apakah nama mahasiswa tersebut ada di dalam map dataNilai atau tidak.
+2. Jika nama mahasiswa ditemukan maka nilai mahasiswa tersebut akan tampil.
+3. Mata kuliah dan nilai akan dipasangkan menggunakan setw untuk mengatur lebar output.\
+4. Jika nama mahasiswa tidak ditermukan maka akan muncul pesan "Mahasiswa dengan nama...tidak ditemukan.
+
+Bagian 6
+
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided3f.png" alt="Alt Text">
+</p>
+
+Pada fungsi di atas dibuatlah fungsi inti atau main function. Dengan dibuatnya objek 'nilaiManager' dari kelas NilaiManager, lalu memanggil 'tambahNilai()' untuk menambahkan nilai mahasiswa, dan memanggil 'tampilkanNilai()' untuk menampilkan mahasiswa yang mau di panggil.
+
+Return 0 menyatakan bahwa perulangan tidak perlu dilakukan dan program telah berjalan dengan normal.
