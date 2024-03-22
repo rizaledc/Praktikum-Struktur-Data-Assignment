@@ -159,6 +159,13 @@ Bagian 5
 
 Return 0 pada kode digunakan untuk menginisiasi bahwa program telah berjalan dengan normal.
 
+Output Program
+
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputGuided1.png" alt="Alt Text">
+</p>
+
+
 **2.2.2 Guided Tipe Data Abstrak (Data Mahasiswa)**
 
 Bagian 1
@@ -189,13 +196,17 @@ Dari kode di atas menyatakan bahwa kita akan mencetak value-value yang telah kit
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3a.png" alt="Alt Text">
+</p>
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
 Bagian 2
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/guided3b.png" alt="Alt Text">
+</p>
 
 Fungsi 'main' merupakan fungsi yang akan diutamakan untuk dieksekusi. Di dalam fungsi main terdapat int nilai dengan 5 elemen bertipe integer, nilai dari setiap elemennya dideklarasikan secara terpisah mulai dari indeks ke-0 hingga indeks ke-4.
 
@@ -219,7 +230,9 @@ Jawab :
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided1a.png" alt="Alt Text">
+</p>
 
 Preprocessor <iostream> dapat digunakan untuk input maupun output dan <array> untuk menggunakan class array yang ada pada C++. Begitu pula dengan name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
@@ -276,7 +289,9 @@ Jawab :
 
 Bagian 1
 
-![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png?raw=true)
+<p align = "center">
+   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2a.png" alt="Alt Text">
+</p>
 
 Pada bagian <iostream> menggunakan library input dan output standar, berikutnya ada <vector> yang menggunakan struktur data vector yang dinamis, dan <string> library yang digunakan untuk menggunakan tipe data string. Name space seperti std, cout, dan cin perlu kita panggil juga sebelum membuat programnya. Dimana pemanggilannya seperti kode pemrograman di atas.
 
@@ -285,6 +300,8 @@ Pada bagian struct Produk ini mendefinisikan sebuah struktur dengan nama Produk 
 Bagian 2
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2b.png?raw=true)
+
+Pada bagian class ini mendefinisikan sebuah class dengan nama ManajemenPenjualan. Di dalam manajemen penjualan ini terdapat vector yang akan menyimpan daftar produk yang tersedia. Berikutnya ada public yang berguna untuk akses semua anggota dapat diakses dari luar class. Dalam public terdapat void tambahProduk yang memiliki parameter untuk menampung string nama barang dan integer harga barang. Terdapat push_back(produk) pada akhir kode tambah produk yang digunakan untuk menambahkan elemen baru dibelakang vektor seperti menambahkan objek produk ke dalam vektor daftar produk.
 
 Bagian 3
 
