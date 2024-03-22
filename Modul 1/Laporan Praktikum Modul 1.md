@@ -327,6 +327,8 @@ materi tipe data primitif!
 
 Jawab :
 
+***KODE PROGRAM***
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -472,6 +474,65 @@ Soal :Jelaskan fungsi dari class dan struct secara detail dan berikan contoh pro
 
 Jawab : 
 
+***KODE PROGRAM***
+
+```C++
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+// Definisi struct untuk informasi produk
+struct Produk {
+    string nama;
+    int harga;
+};
+
+// Definisi class untuk manajemen penjualan
+class ManajemenPenjualan {
+private:
+    vector<Produk> daftarProduk; // Vektor untuk menyimpan daftar produk yang tersedia
+
+public:
+    // Metode untuk menambahkan produk ke dalam daftar
+    void tambahProduk(string nama, int harga) {
+        Produk produk;
+        produk.nama = nama;
+        produk.harga = harga;
+        daftarProduk.push_back(produk);
+    }
+
+   // Metode untuk menampilkan daftar produk
+void tampilkanDaftarProduk() {
+    cout << "Daftar Produk Tersedia:" << endl;
+    for (size_t i = 0; i < daftarProduk.size(); ++i) {
+        cout << i + 1 << ". " << daftarProduk[i].nama << " - Rp" << daftarProduk[i].harga << endl;
+    }
+}
+
+};
+
+int main() {
+    // Membuat objek manajemen penjualan
+    ManajemenPenjualan manajemenPenjualan;
+
+    // Menambahkan beberapa produk ke dalam daftar
+    manajemenPenjualan.tambahProduk("Buku", 50000);
+    manajemenPenjualan.tambahProduk("Pensil", 2000);
+    manajemenPenjualan.tambahProduk("Penggaris", 5000);
+
+    // Menampilkan daftar produk
+    manajemenPenjualan.tampilkanDaftarProduk();
+
+    return 0;
+}
+//RIZAL WAHYU PRATAMA
+//2311110029
+//copyright@rizal.edc2024
+
+
+```
+
 Bagian 1
 
 <p align = "center">
@@ -498,9 +559,29 @@ Bagian 4
 
 ![alt text](https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/unguided2d.png?raw=true)
 
-Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.\
+Bagian 4 ini merupakan main function atau fungsi utama dalam sebuah program. Dimana main function ini akan membuat objek dari manajemenPenjualan dengan memanggil tambahProduk untuk menambahkan produk ke dalam daftar dan tampilkanProduk untuk menampilkan produk yang tersedia.
 
-Kesimpulan:
+#### Output
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguided2.png" alt="Alt Text">
+</p>
+
+Dari output yang dihasilkan ditampilkan bahwa terdapat 3 produk yang tersedia yaitu Buku dengan harga Rp.50.000, Pensil dengan harga Rp.2.000, dan penggaris dengan harga Rp.5.000. Output ini diperoleh karena penggunaan vector yang dapat menyimpan produk. Lalu dilakukannya perulangan for untuk menambahkan daftar produk yang tersedia. Ini merupakan salah satu contoh program menggunakan class dan struct.
+
+#### Kesimpulan
+
+Class dan struct dapat digunakan untuk menggabungkan data dan perilaku dalam satu unit. Berikut ini beberapa hal tentang class pada bahasa C++:
+
+- Pada C++, class merupakan cara untuk membuat data abstrak.
+- Class memiliki akses yang privat dimana anggota-anggota dalam class tidak dapat diakses dari luar class kecuali menggunakan fungsi publik.
+- Class dapat digunakan untuk menyembunyikan implementasi detail dari sebuah program seperti halnya program di atas.
+
+Berbeda dengan struct, berikut ini beberapa hal tentang struct pada bahasa C++:
+
+- Pada C++, struct memiliki akses yang semua anggota dari struct ini bersifat publik. Dalam artian anggota dari struct ini dapat diakses dari luar struct.
+- Struct ini biasanya digunakan ketika menggabungkan beberapa anggota data tanpa menggunakan fungsi-fungsi yang ada.
+- Penggunaan struct juga digunakan agar anggota struct mudah diakses tanpa mengggunakan fungsi getter dari luar.
+- Pada kodingan di atas struct digunakan pada nama dan harga produk agar mudah di akses.
 
 
 ### 2.3.3 Soal 3. Program dari Fungsi Map (Nilai Mahasiswa)
@@ -509,6 +590,82 @@ Soal :Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan da
 array dengan map. 
 
 Jawab :
+
+***KODE PROGRAM***
+```C++
+#include <iostream>
+#include <map>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+// Struktur data untuk menyimpan nilai mahasiswa
+struct NilaiMahasiswa {
+    float nilai;
+    string grade;
+};
+
+// Class untuk manajemen nilai mahasiswa
+class NilaiManager {
+private:
+    map<string, map<string, NilaiMahasiswa>> dataNilai; // Map untuk menyimpan nilai mahasiswa
+
+public:
+    // Menambahkan nilai mahasiswa
+    void tambahNilai(string nama, string matkul, float nilai) {
+        if (nilai < 0 || nilai > 100) {
+            cout << "Error: Nilai harus berada di antara 0 dan 100." << endl;
+            return;
+        }
+
+        NilaiMahasiswa nilaiMahasiswa;
+        nilaiMahasiswa.nilai = nilai;
+        nilaiMahasiswa.grade = 
+        (nilai >= 80) ? "A" : 
+        (nilai >= 70) ? "B" : 
+        (nilai >= 60) ? "C" : 
+        (nilai >= 50) ? "D" : 
+        "E";
+
+        dataNilai[nama][matkul] = nilaiMahasiswa;
+        cout << "Nilai mahasiswa " << nama << " pada mata kuliah " << matkul << " berhasil ditambahkan." << endl;
+    }
+
+    // Menampilkan nilai mahasiswa
+    void tampilkanNilai(string nama) {
+        if (dataNilai.find(nama) != dataNilai.end()) {
+            cout << "Nilai mahasiswa " << nama << ":" << endl;
+            for (const auto& pair : dataNilai[nama]) {
+                cout << setw(20) << left << pair.first << " : " << setw(5) << right << pair.second.nilai << " (" << pair.second.grade << ")" << endl;
+            }
+        } else {
+            cout << "Mahasiswa dengan nama " << nama << " tidak ditemukan." << endl;
+        }
+    }
+};
+
+int main() {
+    NilaiManager nilaiManager;
+
+    nilaiManager.tambahNilai("John", "Matematika", 85);
+    nilaiManager.tambahNilai("John", "Fisika", 75);
+    nilaiManager.tambahNilai("Alice", "Matematika", 70);
+    nilaiManager.tambahNilai("Alice", "Fisika", 65);
+    nilaiManager.tambahNilai("Bob", "Matematika", 60);
+    nilaiManager.tambahNilai("Bob", "Fisika", 55);
+
+    nilaiManager.tampilkanNilai("John");
+    nilaiManager.tampilkanNilai("Alice");
+    nilaiManager.tampilkanNilai("Bob");
+    nilaiManager.tampilkanNilai("Charlie"); // Mahasiswa tidak ditemukan
+
+    return 0;
+}
+
+//RIZAL WAHYU PRATAMA
+//2311110029
+//copyright@rizal.edc2024
+```
 
 Bagian 1
 
@@ -563,3 +720,44 @@ Bagian 6
 Pada fungsi di atas dibuatlah fungsi inti atau main function. Dengan dibuatnya objek 'nilaiManager' dari kelas NilaiManager, lalu memanggil 'tambahNilai()' untuk menambahkan nilai mahasiswa, dan memanggil 'tampilkanNilai()' untuk menampilkan mahasiswa yang mau di panggil.
 
 Return 0 menyatakan bahwa perulangan tidak perlu dilakukan dan program telah berjalan dengan normal.
+
+#### Output
+
+<p align="center">
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assignment/blob/main/Modul%201/Lap.%20Algoritma%20dan%20Struktur%20Data/OutputUnguided3.png" alt="Alt Text">
+</p>
+
+Dari output yang dihasilkan ditampilkan mulai dari Nilai mahasiswa yang berhasil di tambahkan hingga dimunculkan dari Nama mahasiswanya, nilai fisika dan matematikanya. Salah satu contohnya adalah Mahasiswa John, nilainya berhasil diinputkan lalu muncul pada terminal hasil nilainya berupa nilai fisika 75 yang termasuk grade B, dan nilai matematika 85 yang masuk grade A. Jika nama mahasiswa tidak tercantum maka sistem akan memberikan pesan nama mahasiswa tidak ditemukan seperti contoh mahasiswa Charlie.
+
+#### Kesimpulan
+
+Array dan map merupakan dua struktur data yang umum digunakan pada C++. Namun perbedaan tentu ada diantaranya:
+
+1. Penggunaan Memori
+
+   - Array merupakan struktur data berurutan yng menyimpan elemennya pada blok memori secara terus-menerus. Ukuran array tidak dapat diubah jika sudah dikompilasi.
+   - Map dalam penggunaan memorinya, mao cenderung lebih kompleks karena struktur datanya seperti tabel hash.
+  
+2. Pengurutan
+
+   - Elemen array diatur sesuai dengan indeksnya, untuk pengurutan diperlukan penguruan manual.
+   - Map elemennya selalu diurutkan berdasarkan key yang diberikan menggunakan fungsi-fungsi bawaan yang telah disediakan.
+  
+3. Fleksibilitas
+
+   - Array harus didefinisikan terlebih dahulu pada kompilasi karena tidak dapat diubah setelahnya, sehingga dalam penambahan maupun penghapusan elemen, array kurang efektif.
+   - Map memiliki kemampuan yang baik dalam penambahan maupun pengurangan elemen secara dinamis.
+
+4. Penggunaan
+
+   - Array dapat digunakan ketika terdapat jumlah elemen yang tetap, seperti penyimpanan elemen secara langsung dengan indeks.
+   - Map dapat digunakan ketika hubungan antar key dan value terjalin atau berhubungan sehingga dibutuhkannya pengurutan berdasarkan key yang diberikan.
+  
+# <h2 align="center">BAB 3 PENUTUP</h2>
+
+## 3.1 KESIMPULAN
+
+Berdasarkan materi yang telah diberikan pada modul 1, praktikum pada modul 1 berfokus pada pengenalan tipe-tipe data yang ada pada bahasa pemrograman C++. Dari berbagai macam tipe data ini, kita dapat mengetahui dan mengelompokkan data menjadi beberapa tipe. Terdapat beberapa tipe data yang umum ditemui dan dikelompokkan dalam beberapa kategori seperti tipe data primitif, tipe data abstrak, dan tipe data koleksi. Dimana tipe data primitif ini merupakan tipe data yang telah disediakan langsung oleh bahasa C++, tipe data abstrak yang merupakan gabungan dari banyaknya tipe data sehingga fleksibel digunakan, dan tipe data koleksi yang lebih mengedepankan memberi value pada sebuah variabel yang dibentuk dengan map, array, dan lain sebagainya. Dengan mempelajari dan mempraktikkan modul 1 ini, mahasiswa mampu membuat dan mengoperasikan berbagai program dengan berbagai tipe data.
+
+# <h2 align="center">DAFTAR PUSTAKA</h2>
+
